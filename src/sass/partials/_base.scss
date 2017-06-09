@@ -1,3 +1,57 @@
+body {
+    font-family: $sans-serif;
+    color: $black;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+// Forms
+// http://bourbon.io/docs/#text-inputs
+#{$all-text-inputs} {
+  border: 1px solid $gray;
+  padding: 10px;
+}
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover},
+#{$all-text-inputs-active} {
+  border: 1px solid $green;
+}
+
+// Buttons
+// http://bourbon.io/docs/#buttons-variable
+#{$all-buttons} {
+  background-color: $red;
+  border: 1px solid $gray;
+  color: $white;
+  padding: 10px;
+}
+
+#{$all-buttons-focus},
+#{$all-buttons-hover},
+#{$all-buttons-active} {
+  background-color: $gray;
+  border: 1px solid $red;
+  color: $white;
+}
+
+// Top and bottom base nav styles
 nav {
 
     ul {
@@ -10,5 +64,6 @@ nav {
 
     a {
         padding: 0 10px;
+        text-decoration: none;
     }
 }

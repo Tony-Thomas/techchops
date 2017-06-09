@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
 html {
   line-height: 1.15;
   /* 1 */
@@ -389,7 +390,46 @@ template {
 [hidden] {
   display: none; }
 
-/* Color Palette */
+body {
+  font-family: "Raleway", sans-serif;
+  color: #030404;
+  font-size: 16px;
+  line-height: 1.6; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "playfair Display", serif; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 26px; }
+
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
+  border: 1px solid #2e2f30;
+  padding: 10px; }
+
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
+input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover,
+input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, input:not([type]):active, textarea:active {
+  border: 1px solid #3c6e71; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: #d7263d;
+  border: 1px solid #2e2f30;
+  color: #edf2f4;
+  padding: 10px; }
+
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  background-color: #2e2f30;
+  border: 1px solid #d7263d;
+  color: #edf2f4; }
+
 nav ul {
   list-style: none; }
 
@@ -397,13 +437,63 @@ nav li {
   display: inline-block; }
 
 nav a {
-  padding: 0 10px; }
+  padding: 0 10px;
+  text-decoration: none; }
+
+.site-footer {
+  background: #3c6e71; }
 
 .social-menu a {
-  color: #3c6e71; }
+  color: #fff693; }
+  .social-menu a:before {
+    font-family: FontAwesome;
+    padding-right: 5px; }
+  .social-menu a.twitter:before {
+    content: '\f099'; }
+  .social-menu a.facebook:before {
+    content: '\f09a'; }
+  .social-menu a.linkedin:before {
+    content: '\f0e1'; }
 
-.header-nav a {
-  color: grey; }
+body {
+  font-family: "Raleway", sans-serif;
+  color: #030404;
+  font-size: 16px;
+  line-height: 1.6; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "playfair Display", serif; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 26px; }
+
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
+  border: 1px solid #2e2f30;
+  padding: 10px; }
+
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
+input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover,
+input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, input:not([type]):active, textarea:active {
+  border: 1px solid #3c6e71; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: #d7263d;
+  border: 1px solid #2e2f30;
+  color: #edf2f4;
+  padding: 10px; }
+
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  background-color: #2e2f30;
+  border: 1px solid #d7263d;
+  color: #edf2f4; }
 
 nav ul {
   list-style: none; }
@@ -412,4 +502,5 @@ nav li {
   display: inline-block; }
 
 nav a {
-  padding: 0 10px; }
+  padding: 0 10px;
+  text-decoration: none; }
