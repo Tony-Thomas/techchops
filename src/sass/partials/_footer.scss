@@ -1,10 +1,14 @@
 .site-footer {
-    background: $green;
+    background: $black;
     text-align: center;
+
+    ul {
+        padding: 1rem;
+    }
 }
 
 .social-menu a {
-    color: $yellow;
+    color: $white;
 
     &:before {
         font-family: FontAwesome;

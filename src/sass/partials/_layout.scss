@@ -1,10 +1,9 @@
 // Susy Setup
-
 $susy: (
     columns: 12,
-    gutters: 1/6,
-    global-box-sizing: border-box
-);
+    gutters: 1/6
+     );
+    //global-box-sizing: border-box
 
 .wrap {
     @include container(70%);
@@ -12,17 +11,16 @@ $susy: (
 
 .site-branding {
     @include susy-breakpoint($medium) {
-        @include span(3);
+         @include span(3);
     }
 }
 
 .header-nav {
     @include susy-breakpoint($medium) {
-        @include span(9 last);
+         @include span(9 last);
         padding-top: 40px;
     }
 }
-
 // Bourbon mixin
 .features {
     @include clearfix;
@@ -32,15 +30,14 @@ $susy: (
     // 640px to 960px - 1px = 959px will use these styles
     // some browsers wont render styles correctly at 960px
     @include susy-breakpoint($medium $large - 1) {
-        @include span(6);
+         @include span(6);
 
         &:nth-of-type(even) {
             @include last;
         }
     }
-
     @include susy-breakpoint($large) {
-        @include span(3);
+         @include span(3);
 
         &:last-child {
             @include last;
@@ -49,17 +46,29 @@ $susy: (
 }
 
 .content {
-
     @include susy-breakpoint($large) {
-        @include span(8);
+         @include span(8);
     }
-
 }
 
 .sidebar {
-
     @include susy-breakpoint($large) {
         @include span(4);
         @include last;
+    }
+}
+
+.testimonials {
+    @include susy-breakpoint($large) {
+        @include span(12);
+        //@include push(3);
+        //@include post(3);
+    }
+}
+
+.testimonial {
+    @include susy-breakpoint($large) {
+         @include span(6);
+         @include last;
     }
 }
