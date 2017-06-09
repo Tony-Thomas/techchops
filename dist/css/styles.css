@@ -455,6 +455,25 @@ nav a {
   .social-menu a.linkedin:before {
     content: '\f0e1'; }
 
+.hero .overlay {
+  background: rgba(60, 110, 113, 0.7); }
+
+.hero {
+  text-align: center; }
+
+.hero .wrap {
+  padding: 60px 0; }
+
+.feature img {
+  border-radius: 20px;
+  height: auto;
+  width: 250px; }
+
+.customer img {
+  border-radius: 20px;
+  height: 150px;
+  width: 150px; }
+
 body {
   font-family: "Raleway", sans-serif;
   color: #030404;
