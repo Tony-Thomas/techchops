@@ -10,19 +10,43 @@ $susy: (
     @include container(70%);
 }
 
-.features .feature {
-    @include span(3);
+// Bourbon mixin
+.features {
+    @include clearfix;
+}
 
-    &:last-child {
-        @include last;
+.features .feature {
+    // 640px to 960px - 1px = 959px will use these styles
+    // some browsers wont render styles correctly at 960px
+    @include susy-breakpoint($medium $large - 1) {
+        @include span(6);
+
+        &:nth-of-type(even) {
+            @include last;
+        }
+    }
+
+    @include susy-breakpoint($large) {
+        @include span(3);
+
+        &:last-child {
+            @include last;
+        }
     }
 }
 
 .content {
-    @include span(8);
+
+    @include susy-breakpoint($large) {
+        @include span(8);
+    }
+
 }
 
 .sidebar {
-    @include span(4);
-    @include last;
+
+    @include susy-breakpoint($large) {
+        @include span(4);
+        @include last;
+    }
 }
