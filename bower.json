@@ -1,0 +1,22 @@
+{
+  "name": "New Project",
+  "description": "A base new project template",
+  "main": "index.html",
+  "authors": [
+    "Tony Thomas"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "^4.3.4",
+    "susy": "^2.2.12",
+    "normalize-css": "normalize.css#^7.0.0"
+  }
+}
