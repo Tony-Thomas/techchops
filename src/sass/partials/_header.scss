@@ -1,0 +1,19 @@
+.site-header {
+    background: $black;
+    text-align: center;
+}
+
+.site-title {
+	color: $white;
+}
+
+.header-nav {
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        color: $white;
+    }
+}

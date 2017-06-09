@@ -441,7 +441,8 @@ nav a {
   text-decoration: none; }
 
 .site-footer {
-  background: #3c6e71; }
+  background: #3c6e71;
+  text-align: center; }
 
 .social-menu a {
   color: #fff693; }
@@ -455,6 +456,20 @@ nav a {
   .social-menu a.linkedin:before {
     content: '\f0e1'; }
 
+.site-header {
+  background: #030404;
+  text-align: center; }
+
+.site-title {
+  color: #edf2f4; }
+
+.header-nav ul {
+  margin: 0;
+  padding: 0; }
+
+.header-nav a {
+  color: #edf2f4; }
+
 .wrap {
   max-width: 70%;
   margin-left: auto;
@@ -463,6 +478,19 @@ nav a {
     content: " ";
     display: block;
     clear: both; }
+
+@media (min-width: 640px) {
+  .site-branding {
+    width: 24.0963855422%;
+    float: left;
+    margin-right: 1.2048192771%; } }
+
+@media (min-width: 640px) {
+  .header-nav {
+    width: 74.6987951807%;
+    float: right;
+    margin-right: 0;
+    padding-top: 40px; } }
 
 .features::after {
   clear: both;
@@ -508,7 +536,7 @@ nav a {
   text-align: center; }
 
 .hero .wrap {
-  padding: 60px 0; }
+  padding: 100px 0; }
 
 .feature img {
   border-radius: 20px;
