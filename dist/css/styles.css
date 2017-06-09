@@ -389,70 +389,27 @@ template {
 [hidden] {
   display: none; }
 
-header {
-  margin: 0;
-  font-size: 2rem;
-  height: 100vh;
-  background: url("../../assets/img/hero-3.jpg") 50% no-repeat;
-  display: flex;
-  background-position: center bottom; }
-  header a {
-    color: white; }
+/* Color Palette */
+nav ul {
+  list-style: none; }
 
-.navbar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-grow: 1; }
-  .navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex; }
+nav li {
+  display: inline-block; }
 
-.top {
-  background-color: black;
-  display: flex;
-  height: 10vh; }
+nav a {
+  padding: 0 10px; }
 
-.top--logo {
-  display: flex;
-  flex: 5;
-  align-items: center;
-  margin-left: 2rem; }
-  .top--logo a {
-    font-family: 'Ropa Sans', sans-serif;
-    text-decoration: none; }
+.social-menu a {
+  color: #3c6e71; }
 
-.social {
-  display: flex;
-  flex: 2; }
-  .social ul {
-    flex-grow: 1; }
-    .social ul li {
-      display: flex;
-      margin: auto; }
+.header-nav a {
+  color: grey; }
 
-.bottom ul {
-  margin-left: 0;
-  max-width: 60vw;
-  margin: auto; }
+nav ul {
+  list-style: none; }
 
-.bottom li {
-  flex: 1;
-  height: 3rem;
-  display: flex; }
-  .bottom li a {
-    text-decoration: none;
-    font-family: 'Ropa Sans', sans-serif;
-    flex-grow: 1;
-    text-align: center;
-    background-color: black;
-    border-radius: 20px 20px 0 0; }
-  .bottom li a:hover {
-    background-color: white;
-    color: black; }
+nav li {
+  display: inline-block; }
 
-.bottom li:hover {
-  background-color: white;
-  border-radius: 20px 20px 0 0; }
+nav a {
+  padding: 0 10px; }

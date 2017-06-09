@@ -26,7 +26,7 @@ module.exports = function(grunt) {
         watch: {
             sass: {
                 files: [
-                    'src/sass/index.scss'
+                    'src/sass/**/*.scss'
                 ],
                 tasks: [
                     'sass'
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'dist/js/scripts.js': ['src/js/scripts.js', 'node_modules/jquery/dist/jquery.js']
+                    'dist/js/scripts.js': ['node_modules/jquery/dist/jquery.js', 'src/js/scripts.js']
                 }
             }
         }
